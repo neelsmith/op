@@ -1,10 +1,10 @@
-Site,Label
-urn:cite:oldpersian:site.1,Behistun
-urn:cite:oldpersian:site.2,Elvend
-urn:cite:oldpersian:site.3,Hamadan
-urn:cite:oldpersian:site.4,Murghab (Pasargadae)
-urn:cite:oldpersian:site.5,Naqsh-i Rustam
-urn:cite:oldpersian:site.6,Persepolis
-urn:cite:oldpersian:site.7,Susa
-urn:cite:oldpersian:site.8,Van
-urn:cite:oldpersian:site.9,Suez
+Site,Label,Geo
+urn:cite:oldpersian:site.1,Behistun,"34 23 26N 47 26 9E"
+urn:cite:oldpersian:site.2,Elvend,"36°19′07″N 49°10′04″E"
+urn:cite:oldpersian:site.3,Hamadan,"34°48′N 48°31′E"
+urn:cite:oldpersian:site.4,Murghab (Pasargadae),"30°12′00″N 53°10′46″E"
+urn:cite:oldpersian:site.5,Naqsh-i Rustam,"29°59′20″N 52°52′29″E"
+urn:cite:oldpersian:site.6,Persepolis,"29°56′04″N 52°53′29″E"
+urn:cite:oldpersian:site.7,Susa,"32°11′26″N 48°15′28″E"
+urn:cite:oldpersian:site.8,Van,"38°29′39″N 43°22′48″E"
+urn:cite:oldpersian:site.9,Suez,""
