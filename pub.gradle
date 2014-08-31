@@ -1,6 +1,0 @@
-
-ext {
-    nexusUser = ""
-    nexusPassword = ""
-    nexusRepo = ""
-}
