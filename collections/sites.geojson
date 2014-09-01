@@ -1,0 +1,49 @@
+{ "type": "FeatureCollection",
+  "features": [
+      { "type": "Feature",
+	"geometry": {"type": "Point", "coordinates": [47.4358333333, 34.3905555555]},
+	"properties": {"name": "Behistun"}
+      },
+
+      { "type": "Feature",
+	"geometry": {"type": "Point", "coordinates": [49.1677777778, 36.3186111111]},
+	"properties": {"name": "Elvend"}
+      },
+
+      { "type": "Feature",
+	"geometry": {"type": "Point", "coordinates": [48.5166666667, 34.8]},
+	"properties": {"name": "Hamadan"}
+      },
+
+      { "type": "Feature",
+	"geometry": {"type": "Point", "coordinates": [53.1794444445, 30.2]},
+	"properties": {"name": "Murghab (Pasargadae)"}
+      },
+
+
+      { "type": "Feature",
+	"geometry": {"type": "Point", "coordinates": [52.8747222223, 29.9888888889]},
+	"properties": {"name": "Naqsh-i Rustam"}
+      },
+
+
+
+      { "type": "Feature",
+	"geometry": {"type": "Point", "coordinates": [52.8913888889, 29.9344444444]},
+	"properties": {"name": "Persepolis"}
+      },
+
+      { "type": "Feature",
+	"geometry": {"type": "Point", "coordinates": [48.2577777778, 32.1905555555]},
+	"properties": {"name": "Susa"}
+      },
+
+
+      { "type": "Feature",
+	"geometry": {"type": "Point", "coordinates": [43.3800000000, 38.4941666666]},
+	"properties": {"name": "Van"}
+      }
+      
+  ]
+}
+
