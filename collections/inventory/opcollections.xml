@@ -4,7 +4,7 @@
     
     <extensionImplementation abbr="image" rdfType="cite:Image"/>
     
-    <citeCollection canonicalId="Image" label="Caption" urn="urn:cite:oldpersian:image">
+    <citeCollection canonicalId="Image" label="Caption" urn="urn:cite:oldpersian:img">
         <namespaceMapping
             abbr="hmt"
             fullValue="http://www.homermultitext.org/datans"/>
