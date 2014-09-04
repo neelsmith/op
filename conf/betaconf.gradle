@@ -7,12 +7,13 @@ project.ext {
     /* Two essential system configuration values  */
     /* *****************************************  */		    
     // 1. Sparql endpoint (used by all services)
-    sparqls  = "http://localhost:3333/oldpersian/"
+    sparqls  = "http://localhost:3030/oldpersian/"
 
     // 2. Absolute or relative URL of IIPSrv fast cgi (used by image service)
-    iipsrv = "http://beta.hpcc.uh.edu/fcgi-bin/iipsrv.fcgi"
+    iipsrv = "http://localhost/fcgi-bin/iipsrv.fcgi"
 	
-    inventoryDir = "" // /home/neel/repos/git/jerome/texts/inventories"
+    inventoryDir = "localconf/inventories"
+
 
     /* *****************************************  */		    
     /* Project-specific values                    */
@@ -24,7 +25,7 @@ project.ext {
     projectlabel = "Old Persian"
 
     // Text to inject into header, footer and nav elements
-     htmlnav = "Old Persian: <a href='home'>Home</a>"
+     htmlnav = "Old Persian :<a href='home'>Home</a>"
     htmlheader = ""
     htmlfooter = "citeservlet is free software developed by Christopher Blackwell and Neel Smith."
 
@@ -37,9 +38,8 @@ project.ext {
     // cutting ICT details. You almost certianly don't care
     // about this: 9000 is a good default.
     detailWidth = "9000"
-
-    coreCss = "css/oldpersian.css"
+    coreCss = "css/jerome-core.css"
 
     ckImgSize = "1000"
-    defaultContext = "2"
+    defaultContext = "3"
 }
