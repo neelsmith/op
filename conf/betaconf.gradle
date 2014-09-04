@@ -7,7 +7,7 @@ project.ext {
     /* Two essential system configuration values  */
     /* *****************************************  */		    
     // 1. Sparql endpoint (used by all services)
-    sparqls  = "http://localhost:3030/oldpersian/"
+    sparqls  = "http://localhost:3333/oldpersian/"
 
     // 2. Absolute or relative URL of IIPSrv fast cgi (used by image service)
     iipsrv = "http://localhost/fcgi-bin/iipsrv.fcgi"
