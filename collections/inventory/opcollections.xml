@@ -6,8 +6,8 @@
     
     <citeCollection canonicalId="Image" label="Caption" urn="urn:cite:oldpersian:img">
         <namespaceMapping
-            abbr="hmt"
-            fullValue="http://www.homermultitext.org/datans"/>
+            abbr="oldpersian"
+            fullValue="http://shot.holycross.edu/datans/oldpersian"/>
         <extension name="image"/>
         <title
             xmlns="http://purl.org/dc/elements/1.1/">Images of Old Persian inscriptions</title>
