@@ -10,7 +10,7 @@ project.ext {
     sparqls  = "http://localhost:3333/oldpersian/"
 
     // 2. Absolute or relative URL of IIPSrv fast cgi (used by image service)
-    iipsrv = "http://beta.hpcc.uh.ed/fcgi-bin/iipsrv.fcgi"
+    iipsrv = "http://beta.hpcc.uh.edu/fcgi-bin/iipsrv.fcgi"
 	
     inventoryDir = "localconf/inventories"
 
