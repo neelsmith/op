@@ -19,7 +19,7 @@ project.ext {
     /* Project-specific values                    */
     /* *****************************************  */		    
     // Where you will install or run citeservlet
-    homeUrl = "http://localhost/cite"
+    homeUrl = "http://localhost/cite/"
 
     // Strings for labelling web pages
     projectlabel = "Old Persian"
@@ -38,7 +38,7 @@ project.ext {
     // cutting ICT details. You almost certianly don't care
     // about this: 9000 is a good default.
     detailWidth = "9000"
-    coreCss = "css/oldpersian.css"
+    coreCss = "css/hmt-core.css"
 
     ckImgSize = "1000"
     defaultContext = "3"

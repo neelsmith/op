@@ -10,7 +10,7 @@ project.ext {
     sparqls  = "http://localhost:3333/oldpersian/"
 
     // 2. Absolute or relative URL of IIPSrv fast cgi (used by image service)
-    iipsrv = "http://localhost/fcgi-bin/iipsrv.fcgi"
+    iipsrv = "http://beta.hpcc.uh.ed/fcgi-bin/iipsrv.fcgi"
 	
     inventoryDir = "localconf/inventories"
 
@@ -38,7 +38,7 @@ project.ext {
     // cutting ICT details. You almost certianly don't care
     // about this: 9000 is a good default.
     detailWidth = "9000"
-    coreCss = "css/jerome-core.css"
+    coreCss = "css/hmt-core.css"
 
     ckImgSize = "1000"
     defaultContext = "3"
