@@ -25,12 +25,12 @@ project.ext {
     projectlabel = "Old Persian"
 
     // Text to inject into header, footer and nav elements
-     htmlnav = "Old Persian :<a href='home'>Home</a>"
+     htmlnav = "Old Persian: <a href='home'>Home</a>"
     htmlheader = ""
     htmlfooter = "citeservlet is free software developed by Christopher Blackwell and Neel Smith."
 
     // Default URNs to populate query forms 
-    demoImage = ""
+    demoImage = "urn:cite:oldpersian:img.3936190483_3367896144_o"
     demoObject = ""
     demoText = ""
 

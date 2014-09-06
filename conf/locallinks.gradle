@@ -5,15 +5,11 @@
 project.ext {
 
     // Where you want to provide query forms for the services
-    //queryforms = "http://localhost/cite/svcforms"
     queryforms = "svcforms"
 
     // The four CITE services	    
-    //texts  = "http://localhost/cite/texts"
     texts  = "texts"
-    //indices =  "http://localhost/cite/indices"
     indices =  "indices"
-    //collections = "http://localhost/cite/collections"
     collections = "collections"
 
     images = "http://localhost/cite/images"
@@ -26,6 +22,5 @@ project.ext {
     ict = "ict.html"
 
     // CiteKit javascript package
-    //citekit = "http://localhost/cite/citekit/js/cite-jq.js"
     citekit = "citekit/js/cite-jq.js"
 }
