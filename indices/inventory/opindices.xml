@@ -70,11 +70,11 @@
 
 
 
-    <!-- ******* Fundamental DSE relations, 4:  TEXT-BEARING SURFACE -> ALL IMAGES ***********
+    <!-- ******* Fundamental DSE relations, 4:  TEXT-BEARING SURFACE -> ALL IMAGES ***********    -->
     <index verb="cite:illustratedBy" inverse="cite:illustrates">
-        <source type="file" value="tbsToImage.tsv"></source>
+        <source type="file" value="tbsToImage.csv"></source>
     </index>
-    -->
+
     
     <!--** end TEXT-BEARING SURFACE  -> ALL IMAGES********************************************* -->
     
