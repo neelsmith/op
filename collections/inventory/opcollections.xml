@@ -27,7 +27,9 @@
         <citeProperty name="Inscription" label="Inscription" type="citeurn" ></citeProperty>
         <citeProperty name="Label" label="Label" type="string" ></citeProperty>
         <citeProperty name="Patron" label="Patron" type="citeurn" ></citeProperty>
-        <citeProperty name="Site" label="Site" type="citeurn" ></citeProperty>
+        <citeProperty name="Site" label="Site" type="citeurn" >
+        <indexRelation rdfverb="cite:locatedIn" inverseverb="cite:locationOf"/>
+        </citeProperty>
     </citeCollection>
     
     
