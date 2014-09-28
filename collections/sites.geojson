@@ -7,41 +7,41 @@
 
       { "type": "Feature",
 	"geometry": {"type": "Point", "coordinates": [49.1677777778, 36.3186111111]},
-	"properties": {"name": "Elvend"}
+	"properties": {"name": "Elvend", "urn": "urn:cite:oldpersian:site.2"}
       },
 
       { "type": "Feature",
 	"geometry": {"type": "Point", "coordinates": [48.5166666667, 34.8]},
-	"properties": {"name": "Hamadan"}
+	"properties": {"name": "Hamadan", "urn": "urn:cite:oldpersian:site.3"}
       },
 
       { "type": "Feature",
 	"geometry": {"type": "Point", "coordinates": [53.1794444445, 30.2]},
-	"properties": {"name": "Murghab (Pasargadae)"}
+	"properties": {"name": "Murghab (Pasargadae)", "urn": "urn:cite:oldpersian:site.4"}
       },
 
 
       { "type": "Feature",
 	"geometry": {"type": "Point", "coordinates": [52.8747222223, 29.9888888889]},
-	"properties": {"name": "Naqsh-i Rustam"}
+	"properties": {"name": "Naqsh-i Rustam", "urn": "urn:cite:oldpersian:site.5"}
       },
 
 
 
       { "type": "Feature",
 	"geometry": {"type": "Point", "coordinates": [52.8913888889, 29.9344444444]},
-	"properties": {"name": "Persepolis"}
+	"properties": {"name": "Persepolis", "urn": "urn:cite:oldpersian:site.6"}
       },
 
       { "type": "Feature",
 	"geometry": {"type": "Point", "coordinates": [48.2577777778, 32.1905555555]},
-	"properties": {"name": "Susa"}
+	"properties": {"name": "Susa", "urn": "urn:cite:oldpersian:site.7"}
       },
 
 
       { "type": "Feature",
 	"geometry": {"type": "Point", "coordinates": [43.3800000000, 38.4941666666]},
-	"properties": {"name": "Van"}
+	"properties": {"name": "Van", "urn": "urn:cite:oldpersian:site.8" }
       }
       
   ]
