@@ -20,13 +20,13 @@
 
 
 
-<!-- ******* Fundamental DSE relations, 1:  TEXT -> TEXT-BEARING SURFACE *********** -->
+<!-- ******* Fundamental DSE relations, 1:  TEXT -> TEXT-BEARING SURFACE *********** 
     
     
     <index verb="cite:appearsOn" inverse="cite:hasOnIt">
         <source type="file" value="textToSurface.csv"></source>
     </index>
-    
+    -->
     
 
     <!--** end TEXT -> TEXT-BEARING SURFACE ********************************************* -->
@@ -39,11 +39,11 @@
 
 
 
-    <!-- ******* Fundamental DSE relations, 2:  TEXT-BEARING SURFACE -> DEFAULT IMAGE *********** -->
+    <!-- ******* Fundamental DSE relations, 2:  TEXT-BEARING SURFACE -> DEFAULT IMAGE *********** 
     
     <index verb="hmt:hasDefaultImage" inverse="hmt:isDefaultImage">
         <source type="file" value="tbsToDefaultImage.csv"></source>
-    </index>
+    </index>-->
     
 
     <!--** end TEXT-BEARING SURFACE  -> DEFAULT IMAGES********************************************* -->
@@ -55,13 +55,13 @@
     
     
     
-    <!-- ******* Fundamental DSE relations, 3:  TEXT -> IMAGE *********** -->
+    <!-- ******* Fundamental DSE relations, 3:  TEXT -> IMAGE *********** 
     
     <index verb="cite:illustratedBy" inverse="cite:illustrates">
         <source type="file" value="textToImage.csv"></source>
     </index>
     
-    
+    -->
     
     <!--** end TEXT  -> IMAGE********************************************* -->
     
@@ -70,12 +70,12 @@
 
 
 
-    <!-- ******* Fundamental DSE relations, 4:  TEXT-BEARING SURFACE -> ALL IMAGES *********** -->
-    
+    <!-- ******* Fundamental DSE relations, 4:  TEXT-BEARING SURFACE -> ALL IMAGES ***********
     <index verb="cite:illustratedBy" inverse="cite:illustrates">
         <source type="file" value="tbsToImage.tsv"></source>
     </index>
-   
+    -->
+    
     <!--** end TEXT-BEARING SURFACE  -> ALL IMAGES********************************************* -->
     
     
