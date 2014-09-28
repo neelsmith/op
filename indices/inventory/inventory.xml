@@ -81,6 +81,12 @@
     
     
     
-
+<!-- Other -->
+    
+    <index verb="cite:illustratedBy" inverse="cite:illustrates">
+        <source type="file" value="monumentToImage.csv"></source>
+    </index>
+        
+        
 
 </indexInventory>

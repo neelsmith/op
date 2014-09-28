@@ -4,6 +4,35 @@
     
     <extensionImplementation abbr="image" rdfType="cite:Image"/>
     
+    
+    <citeCollection urn="urn:cite:oldpersian:monument" label="Label" canonicalId="Monument">
+        <namespaceMapping
+            abbr="oldpersian"
+            fullValue="http://shot.holycross.edu/datans/oldpersian"/>
+        <title
+            xmlns="http://purl.org/dc/elements/1.1/">Monuments related to Old Persian inscriptions</title>
+        <creator
+            xmlns="http://purl.org/dc/elements/1.1/">Neel Smith</creator>
+        <coverage
+            xmlns="http://purl.org/dc/elements/1.1/">Monuments related to inscriptions currently being edited in this project.
+        </coverage>
+        <description
+            xmlns="http://purl.org/dc/elements/1.1/"> Monuments bearing Old Persian inscriptions.</description>
+        <rights
+            xmlns="http://purl.org/dc/elements/1.1/"> All data in this collection are available
+            under the terms of the Creative Commons Attribution-Non-Commercial 3.0 Unported License,
+            http://creativecommons.org/licenses/by-nc/3.0/deed.en_US</rights>
+        <source
+            type="file"
+            value="sites.csv"/>
+        <citeProperty name="Site" type="citeurn" label="Site"></citeProperty>
+        <citeProperty label="Monument" type="string" name="Label"></citeProperty>
+        <citeProperty name="Monument" type="citeurn" label="Monument ID"></citeProperty>
+    </citeCollection>
+    
+    
+    
+    
     <citeCollection urn="urn:cite:oldpersian:site" label="Label" canonicalId="Site">
         <namespaceMapping
             abbr="oldpersian"
