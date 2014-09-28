@@ -8,11 +8,9 @@ project.ext {
     queryforms = "svcforms"
 
     // The four CITE services	    
-    texts  = "texts"
-    indices =  "indices"
-    collections = "collections"
-
-    // Won't survive proxying with a relative URL:
+    texts  = "http://beta.hpcc.uh.edu/tomcat/oldpersian/texts"
+    indices =  "http://beta.hpcc.uh.edu/tomcat/oldpersian/indices"
+    collections = "http://beta.hpcc.uh.edu/tomcat/oldpersian/collections"
     images = "http://beta.hpcc.uh.edu/tomcat/oldpersian/images"
 
     // XSLT to use for constructing IIPMooViewer replies
