@@ -11,13 +11,13 @@ project.ext {
     indices =  "indices"
     collections = "collections"
 
-    images = "images"
+    // Why can't this be a relative URL?
+    images = "http://localhost:8880/cite/images"
 
     // XSLT to use for constructing IIPMooViewer replies
     mooxslt = "xslt/citeimg_getiipmooviewer.xsl"
 
     // The image citation tool
-    //ict = "http://localhost:8880/cite/ict.html"
     ict = "ict.html"
 
     // CiteKit javascript package

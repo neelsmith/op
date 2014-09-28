@@ -12,7 +12,8 @@ project.ext {
     indices =  "indices"
     collections = "collections"
 
-    images = "images"
+    // Won't survive proxying with a relative URL:
+    images = "http://beta.hpcc.uh.edu/tomcat/oldpersian/images"
 
     // XSLT to use for constructing IIPMooViewer replies
     mooxslt = "xslt/citeimg_getiipmooviewer.xsl"
