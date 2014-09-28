@@ -2,7 +2,7 @@
   "features": [
       { "type": "Feature",
 	"geometry": {"type": "Point", "coordinates": [47.4358333333, 34.3905555555]},
-	"properties": {"name": "Behistun"}
+	"properties": {"name": "Behistun", "urn": "urn:cite:oldpersian:site.1" }
       },
 
       { "type": "Feature",
