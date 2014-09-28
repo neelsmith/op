@@ -1,0 +1,33 @@
+buildscript {
+
+  repositories {
+    mavenCentral()
+    maven {
+      url "http://beta.hpcc.uh.edu/nexus/content/groups/public"
+    }
+  }
+  dependencies {
+    classpath group: 'org.homermultitext', name : 'hmt-utils' , version: '0.2.7'
+    classpath group: 'edu.holycross.shot', name : 'hocuspocus' , version: '0.11.5'
+    classpath group: 'edu.holycross.shot', name : 'prestochango' , version: '0.3.1'
+    classpath group: 'edu.holycross.shot', name : 'abracadabra' , version: '0.2.4'
+    classpath group: 'edu.holycross.shot', name : 'nysi' , version: '0.2.2'
+  }
+}
+
+import org.apache.tools.ant.filters.*
+
+
+// hmtarchive project
+apply plugin: "base"
+apply plugin:  "groovy"
+apply plugin:  "maven"
+
+task servlet(type: Copy) {
+    description = "Filter-copies servlet contents into build area."
+    from (file("servlet")) 
+    
+    filter(ReplaceTokens, tokens : [packagedate : "${new Date().format('yyyy-MM-dd')}".toString(), versionid : version] )
+    into "${buildDir}/servlet"
+}
+
