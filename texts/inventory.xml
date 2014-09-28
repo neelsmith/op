@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="schemas/TextInventory.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TextInventory xmlns="http://chs.harvard.edu/xmlns/cts" tiversion="5.0.rc.1">
+    <ctsnamespace abbr="oldpersian" ns="http://shot.holycross.edu/ctsns/oldpersian">
+        <description xml:lang="eng">Corpus of Old Persian inscriptions</description>
+    </ctsnamespace>
+    
+    <textgroup urn="urn:cts:oldpersian:D">
+        <groupname xml:lang="eng">Inscriptions of Darius 1</groupname>
+        <work urn="urn:cts:oldpersian:D.B" xml:lang="peo">
+            <title xml:lang="eng">Behistun monument</title>
+            
+            
+            <edition urn="urn:cts:oldpersian:D.B.hc">
+                <label xml:lang="eng">Holy Cross edition</label>
+                <description xml:lang="eng">Diplomatic edition with supporting visual evidence</description>
+                <online docname="DB.xml">
+                    <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1\
+                        .0"/>
+                    <citationMapping>
+                        <citation label="Column" xpath="/tei:div[@n = '?']" scope="/tei:TEI/tei:text/tei:body">
+                            <citation label="Line" xpath="/tei:ab[@n = '?']" scope="/tei:TEI/tei:text/tei:body/tei:div[@n = '?']"/>
+                        </citation>
+                    </citationMapping>
+                </online>
+              
+
+            </edition>
+           
+        </work>
+    </textgroup>
+</TextInventory>
