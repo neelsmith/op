@@ -1,0 +1,16 @@
+Person,Name,Father,Succeeds
+urn:cite:oldpersian:king.Achaemenes,Achaemenes,,
+urn:cite:oldpersian:king.Teispes,Teispes,urn:cite:oldpersian:king.Achaemenes,
+urn:cite:oldpersian:king.Cyrus0,Cyrus,urn:cite:oldpersian:king.Teispes,,
+urn:cite:oldpersian:king.Cambyses0,Cambyses,urn:cite:oldpersian:king.Cyrus0,,
+urn:cite:oldpersian:king.Cyrus,Cyrus the Great,urn:cite:oldpersian:king.Cambyses0,,
+urn:cite:oldpersian:king.Cambyses,Cambyses,urn:cite:oldpersian:king.Cyrus,urn:cite:oldpersian:king.Cyrus
+urn:cite:oldpersian:king.Ariaramnes,Ariaramnes,urn:cite:oldpersian:king.Teispes,
+urn:cite:oldpersian:king.Arsames,Arsames,urn:cite:oldpersian:king.Ariaramnes,
+urn:cite:oldpersian:king.Hystaspes,Hystaspes,urn:cite:oldpersian:king.Arsames,
+urn:cite:oldpersian:king.Darius,Darius the Great,urn:cite:oldpersian:king.Hystaspes,urn:cite:oldpersian:king.Cambyses
+urn:cite:oldpersian:king.Xerxes,Xerxes,urn:cite:oldpersian:king.Darius,urn:cite:oldpersian:king.Darius
+urn:cite:oldpersian:king.Artaxerxes1,"Artaxerxes 1 ('Longimanus')",urn:cite:oldpersian:king.Xerxes,urn:cite:oldpersian:king.Xerxes
+urn:cite:oldpersian:king.Darius2,"Darius 1 ('Nothus')",urn:cite:oldpersian:king.Artaxerxes1,urn:cite:oldpersian:king.Artaxerxes1
+urn:cite:oldpersian:king.Artaxerxes2,"Artaxerxes 2 ('Mnemon')",urn:cite:oldpersian:king.Darius2,urn:cite:oldpersian:king.Darius2
+urn:cite:oldpersian:king.Artaxerxes3,"Artaxerxes 3 ('Ochus')",urn:cite:oldpersian:king.Artaxerxes2,urn:cite:oldpersian:king.Artaxerxes2
