@@ -4,6 +4,7 @@ urn:cite:oldpersian:lex.2,atarsa,"3:pl:impft:ind:act"
 urn:cite:oldpersian:lex.3,ϑātiy,"3:s:pres:ind:act"
 urn:cite:oldpersian:lex.4,adam,"masc:nom:s"
 urn:cite:oldpersian:lex.4,manā,"masc:gen:s"
+urn:cite:oldpersian:lex.4,ma,""
 urn:cite:oldpersian:lex.5,xšāyaϑiya,"masc:nom:s"
 urn:cite:oldpersian:lex.5,xšāyaϑiyānām,"masc:gen:pl"
 urn:cite:oldpersian:lex.6,puça,"masc:nom:s"
@@ -31,16 +32,18 @@ urn:cite:oldpersian:lex.20,uškahyā,"neut:gen:s"
 urn:cite:oldpersian:lex.21,drayahyā,"neut:gen:s"
 urn:cite:oldpersian:lex.21,draya,"neut:acc:s"
 urn:cite:oldpersian:lex.22,para,"indecl"
-
+urn:cite:oldpersian:lex.23,hacā,"indecl"
+urn:cite:oldpersian:lex.23,hacāma,"= hacā + ma"
+urn:cite:oldpersian:lex.4,hacāma,"= hacā + ma"
+urn:cite:oldpersian:lex.24,avaϑā,"indecl"
+urn:cite:oldpersian:lex.2,tarsam,""
+urn:cite:oldpersian:lex.25,yadiy,"indecl"
 
 abiy
 ahatiy
 aniyanā
-avaϑā
 axšatā
 duvaištam
-hacā
-hacāma
 hauvciy
 hyā
 maniyāhay
@@ -48,6 +51,5 @@ nirasātiy
 pādiy
 pāta
 šiyātiš
-tarsam
 viϑam
-yadiy
+
