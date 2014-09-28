@@ -31,8 +31,8 @@ project.ext {
 
     // Default URNs to populate query forms 
     demoImage = "urn:cite:oldpersian:img.3936190483_3367896144_o"
-    demoObject = ""
-    demoText = ""
+    demoObject = "urn:cite:oldpersian:monument.1"
+    demoText = "urn:cts:oldpersian:D.B:1"
 
     // pixel width (as a String) of source image to use in
     // cutting ICT details. You almost certianly don't care
