@@ -4,7 +4,7 @@
     
     <extensionImplementation abbr="image" rdfType="cite:Image"/>
     
-    
+    <!--
     <citeCollection urn="urn:cite:oldpersian:monument" label="Label" canonicalId="Monument">
         <namespaceMapping
             abbr="oldpersian"
@@ -24,11 +24,11 @@
             http://creativecommons.org/licenses/by-nc/3.0/deed.en_US</rights>
         <source
             type="file"
-            value="sites.csv"/>
-        <citeProperty name="Site" type="citeurn" label="Site"></citeProperty>
-        <citeProperty label="Monument" type="string" name="Label"></citeProperty>
-        <citeProperty name="Monument" type="citeurn" label="Monument ID"></citeProperty>
-    </citeCollection>
+            value="monuments.csv"/>
+        <citeProperty name="Monument" label="Monument ID" type="citeurn" ></citeProperty>
+        <citeProperty name="Label" label="Monument" type="string" ></citeProperty>
+        <citeProperty name="Site" label="Site" type="citeurn" ></citeProperty>
+    </citeCollection> -->
     
     
     
