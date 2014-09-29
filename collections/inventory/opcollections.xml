@@ -4,6 +4,38 @@
     
     <extensionImplementation abbr="image" rdfType="cite:Image"/>
     
+    
+    <citeCollection urn="urn:cite:oldpersian:morph" label="Form" canonicalId="Analysis">
+        <namespaceMapping
+            abbr="oldpersian"
+            fullValue="http://shot.holycross.edu/datans/oldpersian"/>
+        <title
+            xmlns="http://purl.org/dc/elements/1.1/">Morphological analyses of Old Persian forms</title>
+        <creator
+            xmlns="http://purl.org/dc/elements/1.1/">Neel Smith</creator>
+        <coverage
+            xmlns="http://purl.org/dc/elements/1.1/"> All surfaces occurring in editions of this project.
+        </coverage>
+        <description
+            xmlns="http://purl.org/dc/elements/1.1/">Morphological analyses of Old Persian forms.</description>
+        <rights
+            xmlns="http://purl.org/dc/elements/1.1/"> All data in this collection are available
+            under the terms of the Creative Commons Attribution-Non-Commercial 3.0 Unported License,
+            http://creativecommons.org/licenses/by-nc/3.0/deed.en_US</rights>
+        <source
+            type="file"
+            value="morph.csv"/>
+        <citeProperty name="Analysis" label="Analysis" type="citeurn" ></citeProperty>
+        <citeProperty name="Form" label="Form" type="string" ></citeProperty>
+        <citeProperty name="LexEntity" label="Lexical entity" type="citeurn" ></citeProperty>
+        <citeProperty name="Parse" label="Parse code" type="string" >
+            
+        </citeProperty>
+    </citeCollection>
+    
+    
+    
+    
     <citeCollection urn="urn:cite:oldpersian:lex" label="Stem" canonicalId="LexEntity">
         <namespaceMapping
             abbr="oldpersian"
