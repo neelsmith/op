@@ -1,0 +1,25 @@
+/* URLs for CITE services, Image Citation Tool, and CITEKit.  */
+
+
+project.ext {
+
+    // Where you want to provide query forms for the services
+    queryforms = "svcforms"
+
+    // The four CITE services	    
+    texts  = "texts"
+    indices =  "indices"
+    collections = "collections"
+
+    // Why can't this be a relative URL?
+    images = "http://beta.hpcc.uh.edu/tomcat/oldpersian/images"
+
+    // XSLT to use for constructing IIPMooViewer replies
+    mooxslt = "xslt/citeimg_getiipmooviewer.xsl"
+
+    // The image citation tool
+    ict = "ict.html"
+
+    // CiteKit javascript package
+    citekit = "citekit/js/cite-jq.js"
+}

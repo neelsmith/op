@@ -5,10 +5,10 @@
 project.ext {
     // 1. Configuration of text repository.
     // Path to text inventory file:
-    ctsinventory = ""
+    ctsinventory = "/vagrant/repositories/op/texts/inventory.xml"
 
     // Path to directory where XML editions are found:
-    ctsarchive = ""
+    ctsarchive = "/vagrant/repositories/op/texts/editions"
 
 
 
@@ -26,10 +26,10 @@ project.ext {
 
     // 4. Configuration of indices.
     // Path to index inventory file:
-    idxinv = "" 
+    idxinv = "/vagrant/repositories/op/indices/inventory/opindices.xml"
 
     // Path to directory where tsv or csv files are found
-    idxarchive = ""
+    idxarchive = "/vagrant/repositories/op/indices"
 
     // Expansion of any RDF prefixes used in your projec.  
     // Default includes all prefixes needed for generic CITE services
