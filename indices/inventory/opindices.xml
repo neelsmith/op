@@ -4,6 +4,8 @@
     <rdfNamespace abbr="hmt" fullValue="http://www.homermultitext.org/hmt/rdf/"></rdfNamespace>
     <rdfNamespace abbr="cite" fullValue="http://www.homermultitext.org/cite/rdf/"></rdfNamespace>
 
+    <rdfNamespace abbr="arch" fullValue="http://shot.holycross.edu/arch/rdf/"></rdfNamespace>
+    
 
   
     
@@ -90,5 +92,15 @@
     <index verb="cite:illustratedBy" inverse="cite:illustrates">
         <source type="file" value="otherIlls.csv"></source>
     </index>
+    
+    
+    <index verb="arch:hasPatron" inverse="arch:patronOf">
+        <source type="file" value="inscrToPatron.csv"></source>
+    </index>
+    
+    <index verb="cite:hasLocation" inverse="cite:locationOf">
+        <source type="file" value="inscrToSite.csv"></source>
+    </index>
+    
 
 </indexInventory>
