@@ -3,7 +3,6 @@
 <indexInventory xmlns="http://chs.harvard.edu/xmlns/cite">
     <rdfNamespace abbr="hmt" fullValue="http://www.homermultitext.org/hmt/rdf/"></rdfNamespace>
     <rdfNamespace abbr="cite" fullValue="http://www.homermultitext.org/cite/rdf/"></rdfNamespace>
-
     <rdfNamespace abbr="arch" fullValue="http://shot.holycross.edu/arch/rdf/"></rdfNamespace>
     
 
