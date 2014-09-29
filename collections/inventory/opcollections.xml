@@ -4,6 +4,38 @@
     
     <extensionImplementation abbr="image" rdfType="cite:Image"/>
     
+    <citeCollection urn="urn:cite:oldpersian:lex" label="Stem" canonicalId="LexEntity">
+        <namespaceMapping
+            abbr="oldpersian"
+            fullValue="http://shot.holycross.edu/datans/oldpersian"/>
+        <title
+            xmlns="http://purl.org/dc/elements/1.1/">Lexicon of Old Persian</title>
+        <creator
+            xmlns="http://purl.org/dc/elements/1.1/">Neel Smith</creator>
+        <coverage
+            xmlns="http://purl.org/dc/elements/1.1/"> All vocabulary occurring in editions of this project.
+        </coverage>
+        <description
+            xmlns="http://purl.org/dc/elements/1.1/">Lexicon of Old Persian.</description>
+        <rights
+            xmlns="http://purl.org/dc/elements/1.1/"> All data in this collection are available
+            under the terms of the Creative Commons Attribution-Non-Commercial 3.0 Unported License,
+            http://creativecommons.org/licenses/by-nc/3.0/deed.en_US</rights>
+        <source
+            type="file"
+            value="lexicon.csv"/>
+        <citeProperty name="LexEntity" label="Vocabulary item" type="citeurn" ></citeProperty>
+        <citeProperty name="Stem" label="Stem" type="string" ></citeProperty>
+        <citeProperty name="PoS" label="Part of speech" type="string" ></citeProperty>
+        <citeProperty name="Translation" label="Translation" type="string" >
+            
+        </citeProperty>
+    </citeCollection>
+    
+    
+    
+    
+    
     <citeCollection urn="urn:cite:oldpersian:inscr" label="Label" canonicalId="Inscription">
         <namespaceMapping
             abbr="oldpersian"
