@@ -75,5 +75,26 @@
         </work>
         
         
+        <work urn="urn:cts:oldpersian:D.Wb" xml:lang="peo">
+            <title xml:lang="eng">Weight from Kerman, now in Leningrad</title>
+            
+            
+            <edition urn="urn:cts:oldpersian:D.Wb.hc">
+                <label xml:lang="eng">Holy Cross edition</label>
+                <description xml:lang="eng">Diplomatic edition in alphabetic transcription with supporting visual evidence</description>
+                <online docname="DWb.xml">
+                    <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"/>
+                    <citationMapping>
+                        <citation label="Line" xpath="/tei:ab[@n = '?']" scope="/tei:TEI/tei:text/tei:body">
+                        </citation>
+                    </citationMapping>
+                </online>
+                
+                
+            </edition>
+            
+        </work>
+        
+        
     </textgroup>
 </TextInventory>
