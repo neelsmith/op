@@ -7,11 +7,12 @@ project.ext {
     queryforms = "svcforms"
 
     // The four CITE services	    
-    texts  = "texts"
-    indices =  "indices"
-    collections = "collections"
+    texts  = "http://localhost:8880/cite/texts"
+    indices =  "http://localhost:8880/cite/indices"
+    collections = "http://localhost:8880/cite/collections"
 
     // Why can't this be a relative URL?
+    // Because of the way it's used by apps like browseimg.
     images = "http://localhost:8880/cite/images"
 
     // XSLT to use for constructing IIPMooViewer replies

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Title</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+  </teiHeader>
+  <text>
+      <body>
+         
+           <ab n="1">a-da-ma:da-a-ra-ya-va-u-sha:xa-sha-<unclear>a-ya-tha</unclear>-i-ya:<w part="I">va-za</w></ab>
+            <ab n="2"><w part="F">ra-ka</w>:xa-sha-a-ya-tha-ya:<w part="I">xa-sha-a-ya-tha-i-ya-a-na-a</w></ab>
+         
+      </body>
+  </text>
+</TEI>

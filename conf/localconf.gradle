@@ -41,5 +41,5 @@ project.ext {
     coreCss = "css/hmt-core.css"
 
     ckImgSize = "1000"
-    defaultContext = "3"
+    defaultContext = "0"
 }
