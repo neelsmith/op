@@ -18,10 +18,10 @@
   </teiHeader>
   <text>
       <body>
-         <div type="column" n="1">
+         
            <ab n="1">a-da-ma:da-a-ra-ya-va-u-sha:xa-sha-<unclear>a-ya-tha</unclear>-i-ya:<w part="I">va-za</w></ab>
             <ab n="2"><w part="F">ra-ka</w>:xa-sha-a-ya-tha-ya:<w part="I">xa-sha-a-ya-tha-i-ya-a-na-a</w></ab>
-         </div>
+         
       </body>
   </text>
 </TEI>

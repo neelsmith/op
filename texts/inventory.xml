@@ -40,8 +40,8 @@
                 <online docname="DPe.xml">
                     <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"/>
                     <citationMapping>
-                        <citation label="Column" xpath="/tei:div[@n = '?']" scope="/tei:TEI/tei:text/tei:body">
-                            <citation label="Line" xpath="/tei:ab[@n = '?']" scope="/tei:TEI/tei:text/tei:body/tei:div[@n = '?']"/>
+                        <citation label="Line" xpath="/tei:div[@n = '?']" scope="/tei:TEI/tei:text/tei:body">
+                            
                         </citation>
                     </citationMapping>
                 </online>
