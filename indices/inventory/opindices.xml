@@ -4,32 +4,12 @@
     <rdfNamespace abbr="hmt" fullValue="http://www.homermultitext.org/hmt/rdf/"></rdfNamespace>
     <rdfNamespace abbr="cite" fullValue="http://www.homermultitext.org/cite/rdf/"></rdfNamespace>
     <rdfNamespace abbr="arch" fullValue="http://shot.holycross.edu/arch/rdf/"></rdfNamespace>
-    
-
-  
-    
 
 
-   
-
-
-    
-    
-    
-
-
-
-
-
-<!-- ******* Fundamental DSE relations, 1:  TEXT -> TEXT-BEARING SURFACE *********** 
-    
-    
+<!-- ******* Fundamental DSE relations, 1:  TEXT -> TEXT-BEARING SURFACE ***********     -->
     <index verb="cite:appearsOn" inverse="cite:hasOnIt">
         <source type="file" value="textToSurface.csv"></source>
     </index>
-    -->
-    
-
     <!--** end TEXT -> TEXT-BEARING SURFACE ********************************************* -->
 
 
