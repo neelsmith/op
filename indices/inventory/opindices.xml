@@ -40,11 +40,11 @@
 
 
 
-    <!-- ******* Fundamental DSE relations, 2:  TEXT-BEARING SURFACE -> DEFAULT IMAGE *********** 
+    <!-- ******* Fundamental DSE relations, 2:  TEXT-BEARING SURFACE -> DEFAULT IMAGE *********** -->
     
     <index verb="hmt:hasDefaultImage" inverse="hmt:isDefaultImage">
         <source type="file" value="tbsToDefaultImage.csv"></source>
-    </index>-->
+    </index>
     
 
     <!--** end TEXT-BEARING SURFACE  -> DEFAULT IMAGES********************************************* -->
