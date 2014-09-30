@@ -36,8 +36,6 @@
     </citeCollection>
     
     
-    
-    
     <citeCollection urn="urn:cite:oldpersian:lex" label="Stem" canonicalId="LexEntity">
         <namespaceMapping
             abbr="oldpersian"
@@ -66,8 +64,36 @@
         </citeProperty>
     </citeCollection>
     
-    
     <!-- ********************************************************** -->
+    
+    
+    
+    
+    <!-- Archaeological monuments  ******************************************************* -->
+    <citeCollection urn="urn:cite:oldpersian:monument" label="Label" canonicalId="Monument">
+        <namespaceMapping
+            abbr="oldpersian"
+            fullValue="http://shot.holycross.edu/datans/oldpersian"/>
+        <title
+            xmlns="http://purl.org/dc/elements/1.1/">Monuments related to Old Persian inscriptions</title>
+        <creator
+            xmlns="http://purl.org/dc/elements/1.1/">Neel Smith</creator>
+        <coverage
+            xmlns="http://purl.org/dc/elements/1.1/">Monuments related to inscriptions currently being edited in this project.
+        </coverage>
+        <description
+            xmlns="http://purl.org/dc/elements/1.1/"> Monuments bearing Old Persian inscriptions.</description>
+        <rights
+            xmlns="http://purl.org/dc/elements/1.1/"> All data in this collection are available
+            under the terms of the Creative Commons Attribution-Non-Commercial 3.0 Unported License,
+            http://creativecommons.org/licenses/by-nc/3.0/deed.en_US</rights>
+        <source
+            type="file"
+            value="monuments.csv"/>
+        <citeProperty name="Monument" label="Monument ID" type="citeurn" ></citeProperty>
+        <citeProperty name="Label" label="Monument" type="string" ></citeProperty>
+        <citeProperty name="Site" label="Site" type="citeurn" ></citeProperty>
+    </citeCollection>
     
     
     <citeCollection urn="urn:cite:oldpersian:inscr" label="Label" canonicalId="Inscription">
@@ -75,14 +101,14 @@
             abbr="oldpersian"
             fullValue="http://shot.holycross.edu/datans/oldpersian"/>
         <title
-            xmlns="http://purl.org/dc/elements/1.1/">Old Persian inscriptions not in situ</title>
+            xmlns="http://purl.org/dc/elements/1.1/">Movable artifacts (including clay tablets) bearing Old Persian inscriptions </title>
         <creator
             xmlns="http://purl.org/dc/elements/1.1/">Neel Smith</creator>
         <coverage
             xmlns="http://purl.org/dc/elements/1.1/"> Old Persian inscriptions being edited for this project.
         </coverage>
         <description
-            xmlns="http://purl.org/dc/elements/1.1/">Old Persian inscriptions not in situ</description>
+            xmlns="http://purl.org/dc/elements/1.1/">Movable artifacts (including clay tablets) bearing Old Persian inscriptions</description>
         <rights
             xmlns="http://purl.org/dc/elements/1.1/"> All data in this collection are available
             under the terms of the Creative Commons Attribution-Non-Commercial 3.0 Unported License,
@@ -99,9 +125,6 @@
         <citeProperty name="Languages" label="Languages" type="string"></citeProperty>
         
     </citeCollection>
-    
-    
-    
     
     
     <citeCollection urn="urn:cite:oldpersian:inscr" label="Label" canonicalId="Inscription">
@@ -134,8 +157,37 @@
         <citeProperty name="Languages" label="Languages" type="string"></citeProperty>
     </citeCollection>
     
+
+    <citeCollection urn="urn:cite:oldpersian:site" label="Label" canonicalId="Site">
+        <namespaceMapping
+            abbr="oldpersian"
+            fullValue="http://shot.holycross.edu/datans/oldpersian"/>
+        <title
+            xmlns="http://purl.org/dc/elements/1.1/">Sites with Old Persian inscriptions</title>
+        <creator
+            xmlns="http://purl.org/dc/elements/1.1/">Neel Smith</creator>
+        <coverage
+            xmlns="http://purl.org/dc/elements/1.1/">Sites with inscriptions currently being edited in this project.
+            </coverage>
+        <description
+            xmlns="http://purl.org/dc/elements/1.1/"> Sites with Old Persian inscriptions.</description>
+        <rights
+            xmlns="http://purl.org/dc/elements/1.1/"> All data in this collection are available
+            under the terms of the Creative Commons Attribution-Non-Commercial 3.0 Unported License,
+            http://creativecommons.org/licenses/by-nc/3.0/deed.en_US</rights>
+        <source
+            type="file"
+            value="sites.csv"/>
+        <citeProperty name="Site" type="citeurn" label="Site URN"></citeProperty>
+        <citeProperty label="Site" type="string" name="Label"></citeProperty>
+        <citeProperty name="GeoText" type="string" label="Location"></citeProperty>
+    </citeCollection>
+    
+    <!-- ********************************************************** -->
     
     
+    
+    <!-- Historical and documentary entities  ******************************************************* -->
     <citeCollection urn="urn:cite:oldpersian:king" label="Name" canonicalId="Person">
         <namespaceMapping
             abbr="oldpersian"
@@ -162,62 +214,11 @@
         <citeProperty name="Succeeds" label="Succeeds" type="citeurn" ></citeProperty>
     </citeCollection>
     
-    
-    
-    <citeCollection urn="urn:cite:oldpersian:monument" label="Label" canonicalId="Monument">
-        <namespaceMapping
-            abbr="oldpersian"
-            fullValue="http://shot.holycross.edu/datans/oldpersian"/>
-        <title
-            xmlns="http://purl.org/dc/elements/1.1/">Monuments related to Old Persian inscriptions</title>
-        <creator
-            xmlns="http://purl.org/dc/elements/1.1/">Neel Smith</creator>
-        <coverage
-            xmlns="http://purl.org/dc/elements/1.1/">Monuments related to inscriptions currently being edited in this project.
-        </coverage>
-        <description
-            xmlns="http://purl.org/dc/elements/1.1/"> Monuments bearing Old Persian inscriptions.</description>
-        <rights
-            xmlns="http://purl.org/dc/elements/1.1/"> All data in this collection are available
-            under the terms of the Creative Commons Attribution-Non-Commercial 3.0 Unported License,
-            http://creativecommons.org/licenses/by-nc/3.0/deed.en_US</rights>
-        <source
-            type="file"
-            value="monuments.csv"/>
-        <citeProperty name="Monument" label="Monument ID" type="citeurn" ></citeProperty>
-        <citeProperty name="Label" label="Monument" type="string" ></citeProperty>
-        <citeProperty name="Site" label="Site" type="citeurn" ></citeProperty>
-    </citeCollection>
+    <!-- ********************************************************** -->
     
     
     
-    
-    <citeCollection urn="urn:cite:oldpersian:site" label="Label" canonicalId="Site">
-        <namespaceMapping
-            abbr="oldpersian"
-            fullValue="http://shot.holycross.edu/datans/oldpersian"/>
-        <title
-            xmlns="http://purl.org/dc/elements/1.1/">Sites with Old Persian inscriptions</title>
-        <creator
-            xmlns="http://purl.org/dc/elements/1.1/">Neel Smith</creator>
-        <coverage
-            xmlns="http://purl.org/dc/elements/1.1/">Sites with inscriptions currently being edited in this project.
-            </coverage>
-        <description
-            xmlns="http://purl.org/dc/elements/1.1/"> Sites with Old Persian inscriptions.</description>
-        <rights
-            xmlns="http://purl.org/dc/elements/1.1/"> All data in this collection are available
-            under the terms of the Creative Commons Attribution-Non-Commercial 3.0 Unported License,
-            http://creativecommons.org/licenses/by-nc/3.0/deed.en_US</rights>
-        <source
-            type="file"
-            value="sites.csv"/>
-        <citeProperty name="Site" type="citeurn" label="Site URN"></citeProperty>
-        <citeProperty label="Site" type="string" name="Label"></citeProperty>
-        <citeProperty name="GeoText" type="string" label="Location"></citeProperty>
-    </citeCollection>
-    
-    
+    <!-- CITE Image collection ********************************************* -->
     <citeCollection canonicalId="Image" label="Caption" urn="urn:cite:oldpersian:img">
         <namespaceMapping
             abbr="oldpersian"
@@ -243,5 +244,7 @@
         <citeProperty name="Rights" label="Rights" type="string"/>
         <citeProperty name="Source" label="Source" type="string"/>
     </citeCollection>
+    
+    <!-- ********************************************************** -->
     
 </collectionService>
