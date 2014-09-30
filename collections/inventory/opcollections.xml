@@ -5,6 +5,8 @@
     <extensionImplementation abbr="image" rdfType="cite:Image"/>
     
     
+    
+    <!-- *** LINGUISTIC ANALYTICAL COLLECTIONS ******************************************************* -->
     <citeCollection urn="urn:cite:oldpersian:morph" label="Form" canonicalId="Analysis">
         <namespaceMapping
             abbr="oldpersian"
@@ -65,6 +67,40 @@
     </citeCollection>
     
     
+    <!-- ********************************************************** -->
+    
+    
+    <citeCollection urn="urn:cite:oldpersian:inscr" label="Label" canonicalId="Inscription">
+        <namespaceMapping
+            abbr="oldpersian"
+            fullValue="http://shot.holycross.edu/datans/oldpersian"/>
+        <title
+            xmlns="http://purl.org/dc/elements/1.1/">Old Persian inscriptions not in situ</title>
+        <creator
+            xmlns="http://purl.org/dc/elements/1.1/">Neel Smith</creator>
+        <coverage
+            xmlns="http://purl.org/dc/elements/1.1/"> Old Persian inscriptions being edited for this project.
+        </coverage>
+        <description
+            xmlns="http://purl.org/dc/elements/1.1/">Old Persian inscriptions not in situ</description>
+        <rights
+            xmlns="http://purl.org/dc/elements/1.1/"> All data in this collection are available
+            under the terms of the Creative Commons Attribution-Non-Commercial 3.0 Unported License,
+            http://creativecommons.org/licenses/by-nc/3.0/deed.en_US</rights>
+        <source
+            type="file"
+            value="other_inscrs.csv"/>
+        <citeProperty name="Inscription" label="Inscription" type="citeurn" ></citeProperty>
+        <citeProperty name="Label" label="Label" type="string" ></citeProperty>
+        <citeProperty name="Patron" label="Patron" type="citeurn" ></citeProperty>
+        <citeProperty name="Provenance" label="Provenance" type="citeurn" >
+            <indexRelation rdfverb="cite:hasProvenance" inverseverb="cite:provenanceOf"/>
+        </citeProperty>
+        <citeProperty name="Languages" label="Languages" type="string"></citeProperty>
+        
+    </citeCollection>
+    
+    
     
     
     
@@ -73,14 +109,14 @@
             abbr="oldpersian"
             fullValue="http://shot.holycross.edu/datans/oldpersian"/>
         <title
-            xmlns="http://purl.org/dc/elements/1.1/">Old Persian inscriptions</title>
+            xmlns="http://purl.org/dc/elements/1.1/">Monumental Old Persian inscriptions in situ</title>
         <creator
             xmlns="http://purl.org/dc/elements/1.1/">Neel Smith</creator>
         <coverage
-            xmlns="http://purl.org/dc/elements/1.1/"> All Old Persian inscriptions being edited for this project.
+            xmlns="http://purl.org/dc/elements/1.1/"> Old Persian inscriptions being edited for this project.
         </coverage>
         <description
-            xmlns="http://purl.org/dc/elements/1.1/">Old Persian inscriptions.</description>
+            xmlns="http://purl.org/dc/elements/1.1/">Monumental Old Persian inscriptions in situ.</description>
         <rights
             xmlns="http://purl.org/dc/elements/1.1/"> All data in this collection are available
             under the terms of the Creative Commons Attribution-Non-Commercial 3.0 Unported License,
@@ -93,7 +129,9 @@
         <citeProperty name="Patron" label="Patron" type="citeurn" ></citeProperty>
         <citeProperty name="Site" label="Site" type="citeurn" >
         <indexRelation rdfverb="cite:locatedIn" inverseverb="cite:locationOf"/>
+            
         </citeProperty>
+        <citeProperty name="Languages" label="Languages" type="string"></citeProperty>
     </citeCollection>
     
     
