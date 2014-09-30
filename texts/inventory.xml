@@ -52,5 +52,28 @@
         </work>
         
     
+    
+    
+        <work urn="urn:cts:oldpersian:D.Sf" xml:lang="peo">
+            <title xml:lang="eng">Foundation inscription of Darius at Susa, DSf</title>
+            
+            
+            <edition urn="urn:cts:oldpersian:D.Sf.louvre">
+                <label xml:lang="eng">Clay tablet from Susa now in Louvre</label>
+                <description xml:lang="eng">Diplomatic edition in alphabetic transcription with supporting visual evidence</description>
+                <online docname="DSf_louvre.xml">
+                    <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"/>
+                    <citationMapping>
+                        <citation label="Line" xpath="/tei:ab[@n = '?']" scope="/tei:TEI/tei:text/tei:body">
+                        </citation>
+                    </citationMapping>
+                </online>
+                
+                
+            </edition>
+            
+        </work>
+        
+        
     </textgroup>
 </TextInventory>
