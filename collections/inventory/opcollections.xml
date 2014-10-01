@@ -96,7 +96,7 @@
     </citeCollection>
     
     
-    <citeCollection urn="urn:cite:oldpersian:inscr" label="Label" canonicalId="Inscription">
+    <citeCollection urn="urn:cite:oldpersian:artif" label="Label" canonicalId="Inscription">
         <namespaceMapping
             abbr="oldpersian"
             fullValue="http://shot.holycross.edu/datans/oldpersian"/>
