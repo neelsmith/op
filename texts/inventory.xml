@@ -75,7 +75,7 @@
         </work>
         
         
-        <work urn="urn:cts:oldpersian:D.Wb" xml:lang="peo">
+<work urn="urn:cts:oldpersian:D.Wb" xml:lang="peo">
             <title xml:lang="eng">Weight from Kerman, now in Leningrad</title>
             
             
@@ -89,12 +89,40 @@
                         </citation>
                     </citationMapping>
                 </online>
-                
-                
+            </edition>
+        </work> 
+        
+        
+        <work urn="urn:cts:oldpersian:D.Wc" xml:lang="peo">
+            <title xml:lang="eng">Diorite weight from Persepolis Treasury, DWc</title>
+            
+            
+            <edition urn="urn:cts:oldpersian:D.Wc.hc">
+                <label xml:lang="eng">Holy Cross edition</label>
+                <description xml:lang="eng">Diplomatic edition in alphabetic transcription with supporting visual evidence</description>
+                <online docname="DWc.xml">
+                    <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"/>
+                    <citationMapping>
+                        <citation label="Line" xpath="/tei:ab[@n = '?']" scope="/tei:TEI/tei:text/tei:body">
+                        </citation>
+                    </citationMapping>
+                </online>
+            </edition>
+        
+            <edition urn="urn:cts:oldpersian:D.Wc.xscript">
+                <label xml:lang="eng">Holy Cross edition</label>
+                <description xml:lang="eng">Transcription with supporting visual evidence</description>
+                <online docname="DWc_xscr.xml">
+                    <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"/>
+                    <citationMapping>
+                        <citation label="Line" xpath="/tei:ab[@n = '?']" scope="/tei:TEI/tei:text/tei:body">
+                        </citation>
+                    </citationMapping>
+                </online>
             </edition>
             
-        </work>
         
+        </work> 
         
     </textgroup>
 </TextInventory>

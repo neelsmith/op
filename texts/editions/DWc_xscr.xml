@@ -4,7 +4,7 @@
   <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Title</title>
+            <title>DWc</title>
          </titleStmt>
          <publicationStmt>
             <p>Publication Information</p>
@@ -17,8 +17,17 @@
   <text>
       <body>
          
-           <ab n="1">?</ab>
-            
+         <ab n="1">120 karšayā</ab>
+         <ab n="2">adam:Dārayavauš:xšāyaϑiya</ab>
+         <ab n="3">:vazraka:xšāyaϑiya</ab>
+         <ab n="4">:xšāyaϑiyānām</ab>
+         <ab n="5">:xšāyaϑiya</ab>
+         <ab n="6">:dahyūnām:xšāyaϑiya</ab>
+         <ab n="7">:ahyāyā</ab>
+         <ab n="8">:būmiyā:Vištāspahyā</ab>
+         <ab n="9">:puça:Haxāmanišiya</ab>
+         
+         
          
       </body>
   </text>
