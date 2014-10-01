@@ -13,7 +13,7 @@
             
             <edition urn="urn:cts:oldpersian:D.B.hc">
                 <label xml:lang="eng">Holy Cross edition</label>
-                <description xml:lang="eng">Diplomatic edition in alphabetic transcription with supporting visual evidence</description>
+                <description xml:lang="eng">Diplomatic edition in alphabetic transliteration with supporting visual evidence</description>
                 <online docname="DB.xml">
                     <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"/>
                     <citationMapping>
@@ -36,7 +36,7 @@
             
             <edition urn="urn:cts:oldpersian:D.Pe.hc">
                 <label xml:lang="eng">Holy Cross edition</label>
-                <description xml:lang="eng">Diplomatic edition in alphabetic transcription with supporting visual evidence</description>
+                <description xml:lang="eng">Diplomatic edition in alphabetic transliteration with supporting visual evidence</description>
                 <online docname="DPe.xml">
                     <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"/>
                     <citationMapping>
@@ -60,7 +60,7 @@
             
             <edition urn="urn:cts:oldpersian:D.Sf.louvre">
                 <label xml:lang="eng">Clay tablet from Susa now in Louvre</label>
-                <description xml:lang="eng">Diplomatic edition in alphabetic transcription with supporting visual evidence</description>
+                <description xml:lang="eng">Diplomatic edition in alphabetic transliteration with supporting visual evidence</description>
                 <online docname="DSf_louvre.xml">
                     <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"/>
                     <citationMapping>
@@ -81,7 +81,7 @@
             
             <edition urn="urn:cts:oldpersian:D.Wb.hc">
                 <label xml:lang="eng">Holy Cross edition</label>
-                <description xml:lang="eng">Diplomatic edition in alphabetic transcription with supporting visual evidence</description>
+                <description xml:lang="eng">Diplomatic edition in alphabetic transliteration with supporting visual evidence</description>
                 <online docname="DWb.xml">
                     <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"/>
                     <citationMapping>
@@ -99,7 +99,7 @@
             
             <edition urn="urn:cts:oldpersian:D.Wc.hc">
                 <label xml:lang="eng">Holy Cross edition</label>
-                <description xml:lang="eng">Diplomatic edition in alphabetic transcription with supporting visual evidence</description>
+                <description xml:lang="eng">Diplomatic edition in alphabetic transliteration with supporting visual evidence</description>
                 <online docname="DWc.xml">
                     <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"/>
                     <citationMapping>
@@ -110,8 +110,8 @@
             </edition>
         
             <edition urn="urn:cts:oldpersian:D.Wc.xscript">
-                <label xml:lang="eng">Holy Cross edition</label>
-                <description xml:lang="eng">Transcription with supporting visual evidence</description>
+                <label xml:lang="eng">Transcription</label>
+                <description xml:lang="eng">Transcription in continuous language of HC diplomatic transliteration</description>
                 <online docname="DWc_xscr.xml">
                     <namespaceMapping abbreviation="tei" nsURI="http://www.tei-c.org/ns/1.0"/>
                     <citationMapping>

@@ -7,19 +7,19 @@
             <title>DWc</title>
          </titleStmt>
          <publicationStmt>
-            <p>Publication Information</p>
+            <p>New diplomatic edition, done from photograph</p>
          </publicationStmt>
          <sourceDesc>
-            <p>Information about the source</p>
+            <p>Original work</p>
          </sourceDesc>
       </fileDesc>
   </teiHeader>
   <text>
       <body>
          
-         <ab n="1">120 karšayā</ab>
-         <ab n="2">adam:Dārayavauš:xšāyaϑiya</ab>
-         <ab n="3"><supplied></supplied>a-ya-tha-i-ya:<unclear>va-</unclear>za-<unclear>ra-</unclear><supplied>ka</supplied></ab>
+         <ab n="1"><supplied>1-100-20 ka-ra-sha-ya-a</supplied></ab>
+         <ab n="2"><supplied>a-da-ma:da-a-ra-ya-va-u-sha:xa-</supplied></ab>
+         <ab n="3"><supplied>sha-</supplied>a-ya-tha-i-ya:<unclear>va-</unclear>za-<unclear>ra-</unclear><supplied>ka:xa-</supplied></ab>
          <ab n="4">sha-a-ya-ha-i-ya:xa-sha-a-ya-tha-</ab>
          <ab n="5">i-ya-a-na-a-ma:xa-sha-a-ya-tha-</ab>
          <ab n="6">i-ya:da-ha-ya-u-na-a-ma:xa-</ab>
@@ -27,9 +27,6 @@
          <ab n="8">a:ba-u-ma-i-ya:va-i-sha-ta-</ab>
          <ab n="9">a-sa-pa-ha-ya:pu-u-sra:ha-xa-</ab>
          <ab n="10">a-ma-na-i-shi-ya</ab>
-         
-         
-         
       </body>
   </text>
 </TEI>

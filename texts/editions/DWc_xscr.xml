@@ -18,15 +18,15 @@
       <body>
          
          <ab n="1">120 karšayā</ab>
-         <ab n="2">adam:Dārayavauš:xšāyaϑiya</ab>
-         <ab n="3">:vazraka:xšāyaϑiya</ab>
-         <ab n="4">:xšāyaϑiyānām</ab>
-         <ab n="5">:xšāyaϑiya</ab>
-         <ab n="6">:dahyūnām:xšāyaϑiya</ab>
-         <ab n="7">:ahyāyā</ab>
-         <ab n="8">:būmiyā:Vištāspahyā</ab>
-         <ab n="9">:puça:Haxāmanišiya</ab>
-         
+         <ab n="2">adam:Dārayavauš:<w part="I">x</w></ab>
+         <ab n="3"><w part="F">šāyaϑiya</w>:vazraka:<w part="I">x</w></ab>
+         <ab n="4"><w part="F">šāyaϑiya</w>:<w part="I">xšāyaϑ</w></ab>
+         <ab n="5"><w part="F">iyānām</w>:<w part="I">xšāyaϑ</w></ab>
+         <ab n="6"><w part="F">iya</w>:dahyūnām:<w part="I">x</w></ab>
+         <ab n="7"><w part="F">šāyaϑiya</w>:<w part="I">ahyāy</w></ab>
+         <ab n="8"><w>ā</w>:būmiyā:<w part="I">Viš</w></ab>
+         <ab n="9"><w part="F">tāspahyā</w>:puça:<w part="I">Hax</w></ab>
+         <ab n="10"><w n="F">āmanišiya</w></ab>
          
          
       </body>
