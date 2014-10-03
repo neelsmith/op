@@ -1,7 +1,7 @@
 Person,Name,Father,Succeeds
 urn:cite:oldpersian:king.Achaemenes,Achaemenes,,
 urn:cite:oldpersian:king.Teispes,Teispes,urn:cite:oldpersian:king.Achaemenes,
-urn:cite:oldpersian:king.Cyrus0,Cyrus,urn:cite:oldpersian:king.Teispes,,
+urn:cite:oldpersian:king.Cyrus0,Cyrus,urn:cite:oldpersian:king.Teispes,
 urn:cite:oldpersian:king.Cambyses0,Cambyses,urn:cite:oldpersian:king.Cyrus0,,
 urn:cite:oldpersian:king.Cyrus,Cyrus the Great,urn:cite:oldpersian:king.Cambyses0,,
 urn:cite:oldpersian:king.Cambyses,Cambyses,urn:cite:oldpersian:king.Cyrus,urn:cite:oldpersian:king.Cyrus
