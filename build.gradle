@@ -18,7 +18,6 @@ buildscript {
 import org.apache.tools.ant.filters.*
 
 
-// hmtarchive project
 apply plugin: "base"
 apply plugin:  "groovy"
 apply plugin:  "maven"
