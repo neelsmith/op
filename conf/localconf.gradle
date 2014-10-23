@@ -19,7 +19,7 @@ project.ext {
     /* Project-specific values                    */
     /* *****************************************  */		    
     // Where you will install or run citeservlet
-    homeUrl = "http://localhost/cite/"
+    homeUrl = "http://localhost:8080/citeservlet/"
 
     // Strings for labelling web pages
     projectlabel = "Old Persian"

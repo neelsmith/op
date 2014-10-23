@@ -8,11 +8,10 @@ project.ext {
     queryforms = "svcforms"
 
     // The four CITE services	    
-    texts  = "texts"
-    indices =  "indices"
-    collections = "collections"
-
-    images = "http://localhost/cite/images"
+    texts  = "http://localhost:8080/citeservlet/texts"
+    indices =  "http://localhost:8080/citeservlet/indices"
+    collections = "http://localhost:8080/citeservlet/collections"
+    images = "http://localhost:8080/citeservlet/images"
 
     // XSLT to use for constructing IIPMooViewer replies
     mooxslt = "xslt/citeimg_getiipmooviewer.xsl"
@@ -22,5 +21,5 @@ project.ext {
     ict = "ict.html"
 
     // CiteKit javascript package
-    citekit = "http://localhost/cite/citekit/js/cite-jq.js"
+    citekit = "citekit/js/cite-jq.js"
 }
