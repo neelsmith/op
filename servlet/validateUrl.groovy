@@ -58,7 +58,7 @@ html.html {
 		}
 
 		  li {
-		    mkp.yield(")
+		    mkp.yield('"')
 		    strong(t.token)
 		    mkp.yield('": ')
 		    if (valid) {

@@ -1,3 +1,4 @@
+
 buildscript {
 
   repositories {
@@ -12,15 +13,42 @@ buildscript {
     classpath group: 'edu.holycross.shot', name : 'prestochango' , version: '0.3.1'
     classpath group: 'edu.holycross.shot', name : 'abracadabra' , version: '0.2.4'
     classpath group: 'edu.holycross.shot', name : 'nysi' , version: '0.2.2'
+    classpath group: 'edu.holycross.shot', name: 'oplang', version:'0.0.1'
   }
 }
 
 import org.apache.tools.ant.filters.*
-
+import edu.holycross.shot.oldpersian.OPTransliteration
 
 apply plugin: "base"
 apply plugin:  "groovy"
 apply plugin:  "maven"
+apply from: "versions.gradle"
+
+repositories {
+  mavenCentral()
+  maven {
+    url "http://beta.hpcc.uh.edu/nexus/content/groups/public"
+  }
+}
+
+dependencies {
+  compile group: 'org.codehaus.groovy', name: 'groovy-all', version: groovyVersion
+
+  compile group: 'edu.holycross.shot', name: 'oplang', version: oplangVersion
+  runtime group: 'edu.holycross.shot', name: 'oplang', version: oplangVersion
+  
+  //testCompile group: 'junit', name: 'junit', version: junitVersion
+  //testCompile 'junit:junit:4.11'
+  //testCompile group :'xmlunit', name: 'xmlunit', version: xmlunitVersion
+}
+
+task xlit {
+}
+xlit.doLast {
+  String xlit = "a-da-ma:"
+  println "Translit ${xlit} as " + OPTransliteration.xlitToU(xlit)
+}
 
 task servlet(type: Copy) {
     description = "Filter-copies servlet contents into build area."
