@@ -51,16 +51,15 @@ html.html {
 	    ul {
 	      tokenization.tokens.each { t ->
 		boolean valid = false
-		if (t.token ==~ /\d+/) {
+		String token = t.token.replaceAll(/ /,'')
+		if (token ==~ /\d+/) {
 		  valid = true
-		} else if (validList.contains(t.token)) {
+		} else if (validList.contains(token)) {
 		  valid = true
 		}
-
-		  li {
-		    mkp.yield('"')
-		    strong(t.token)
-		    mkp.yield('": ')
+		li {
+		    strong(token)
+		    mkp.yield(': ')
 		    if (valid) {
 		      span (style: "background-color:#afa;", "valid")
 		    } else {
