@@ -3,6 +3,13 @@ import edu.holycross.shot.oldpersian.OPTokenization
 request.setCharacterEncoding("UTF-8")
 response.setCharacterEncoding("UTF-8")
 
+void documentFailure(ArrayList authList, String token) {
+  System.err.println "\n\nFAILED: ${token}"
+  authList.each { item ->
+    System.err.println "${token} (${token.size()}) != ${item} (${item.size()})"
+  }
+}
+
 
 URL url = new URL(params.url)
 URL csvFile = new URL("https://raw.githubusercontent.com/neelsmith/op/master/collections/vocab.csv")
@@ -64,6 +71,7 @@ html.html {
 		      span (style: "background-color:#afa;", "valid")
 		    } else {
 		      span (style: "background-color:#FFb0b0;","not in vocabulary list")
+		      //documentFailure(validList, token)
 		    }
 		  }
 	      }
