@@ -45,12 +45,18 @@ html.html {
 	    OPTokenization tokenization = new OPTokenization(inputLines, true)
 
 	    def validList = [];
+	    def xscript = []
 	    Integer idx = 0;
 	    csvFile.getText("UTF-8").eachLine { l ->
 	      idx++;
-	      def cols = l.split(/,/);
+	      def cols = l.split(/,/)
 	      if (cols.size() > 1) {
-		validList.add(cols[1]);
+		validList.add(cols[1])
+		if (cols.size() > 2) {
+		  xscript.add(cols[2])
+		} else {
+		  xscriptadd("(need transcription)")
+		}
 	      }
 	    }
 
@@ -58,17 +64,27 @@ html.html {
 	    ul {
 	      tokenization.tokens.each { t ->
 		boolean valid = false
+		Integer matchIdx = 0
 		String token = t.token.replaceAll(/ /,'')
 		if (token ==~ /\d+/) {
 		  valid = true
-		} else if (validList.contains(token)) {
-		  valid = true
+		  matchIdx = -1
+		} else {
+		  validList.eachWithIndex { v, i ->
+		    if (v == token) {
+		      valid = true
+		      matchIdx = i
+		    }
+		  }
 		}
 		li {
 		    strong(token)
 		    mkp.yield(': ')
 		    if (valid) {
 		      span (style: "background-color:#afa;", "valid")
+		      if (matchIdx >= 0) {
+			mkp.yield (" (${xscript[matchIdx]})")
+		      }
 		    } else {
 		      span (style: "background-color:#FFb0b0;","not in vocabulary list")
 		      //documentFailure(validList, token)
