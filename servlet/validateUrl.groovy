@@ -54,8 +54,10 @@ html.html {
 		validList.add(cols[1])
 		if (cols.size() > 2) {
 		  xscript.add(cols[2])
+		  //System.err.println "mapped ${validList[idx - 1]} to ${xscript[idx - 1]}"
 		} else {
-		  xscriptadd("(need transcription)")
+		  xscript.add("(need transcription)")
+		  //System.err.println "No mapping for${validList[idx - 1]}"
 		}
 	      }
 	    }
@@ -71,9 +73,13 @@ html.html {
 		  matchIdx = -1
 		} else {
 		  validList.eachWithIndex { v, i ->
+
 		    if (v == token) {
 		      valid = true
 		      matchIdx = i
+
+		      //System.err.println "Matched ${token} at ${i}"
+		      //System.err.println "\tcf ${validList[matchIdx]} and ${xscript[matchIdx]}"
 		    }
 		  }
 		}
