@@ -1,0 +1,12 @@
+ext {
+    oplangVersion = '0.0.4'
+
+    sparqlimgVersion = "0.6.0"
+    sparqlctsVersion = "0.9.3"
+    sparqlccVersion = "0.4.0"
+    graphVersion = "0.5.1"
+
+    groovyVersion = "2.2.2"
+
+    ckVersion  = "0.1.7"
+}
