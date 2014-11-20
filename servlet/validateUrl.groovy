@@ -1,7 +1,16 @@
 import edu.holycross.shot.oldpersian.OPTokenization
+import edu.holycross.shot.oldpersian.OPMorphology
+import edu.holycross.shot.oldpersian.OPMorphAnalysis
+import edu.holycross.shot.oldpersian.OPLexicon
+import edu.holycross.shot.oldpersian.OPLexItem
+
 
 request.setCharacterEncoding("UTF-8")
 response.setCharacterEncoding("UTF-8")
+
+OPMorphology morphology = new OPMorphology()
+OPLexicon lexicon = new OPLexicon()
+
 
 void documentFailure(ArrayList authList, String token) {
   System.err.println "\n\nFAILED: ${token}"
@@ -10,6 +19,8 @@ void documentFailure(ArrayList authList, String token) {
   }
 }
 
+
+Integer debug = 0
 
 URL url = new URL(params.url)
 URL csvFile = new URL("https://raw.githubusercontent.com/neelsmith/op/master/collections/vocab.csv")
@@ -46,18 +57,24 @@ html.html {
 
 	    def validList = [];
 	    def xscript = []
+	    def formUrns  = []
 	    Integer idx = 0;
 	    csvFile.getText("UTF-8").eachLine { l ->
 	      idx++;
 	      def cols = l.split(/,/)
 	      if (cols.size() > 1) {
+		formUrns.add(cols[0])
 		validList.add(cols[1])
 		if (cols.size() > 2) {
 		  xscript.add(cols[2])
-		  //System.err.println "mapped ${validList[idx - 1]} to ${xscript[idx - 1]}"
+		  if (debug > 1) {
+		    System.err.println "mapped ${validList[idx - 1]} to ${xscript[idx - 1]}"
+		  }
 		} else {
 		  xscript.add("(need transcription)")
-		  //System.err.println "No mapping for${validList[idx - 1]}"
+		  if (debug > 1 ) {
+		    System.err.println "No mapping for${validList[idx - 1]}"
+		  }
 		}
 	      }
 	    }
@@ -73,13 +90,13 @@ html.html {
 		  matchIdx = -1
 		} else {
 		  validList.eachWithIndex { v, i ->
-
 		    if (v == token) {
 		      valid = true
 		      matchIdx = i
-
-		      //System.err.println "Matched ${token} at ${i}"
-		      //System.err.println "\tcf ${validList[matchIdx]} and ${xscript[matchIdx]}"
+		      if (debug > 1) {
+			System.err.println "Matched ${token} at ${i}"
+			System.err.println "\tcf ${validList[matchIdx]} and ${xscript[matchIdx]}"
+		      }
 		    }
 		  }
 		}
@@ -89,11 +106,26 @@ html.html {
 		    if (valid) {
 		      span (style: "background-color:#afa;", "valid")
 		      if (matchIdx >= 0) {
+			//morphology.analyzeForm(urn);
+			String formUrn = formUrns[matchIdx]
 			mkp.yield (" (${xscript[matchIdx]})")
+
+			
+			OPMorphAnalysis morph = morphology.analyzeForm(formUrn)
+			if (morph) {
+			  OPLexItem lex = lexicon.lexicon[morph.lexicalEntityUrn]
+			  mkp.yield  (" from ")
+			  em("${lex.stem}")
+			  mkp.yield(", ${lex.pos}, ")
+			  em(lex.translation)
+			  
+			}
 		      }
 		    } else {
 		      span (style: "background-color:#FFb0b0;","not in vocabulary list")
-		      //documentFailure(validList, token)
+		      if (debug  > 0) {
+			documentFailure(validList, token)
+		      }
 		    }
 		  }
 	      }
