@@ -23,7 +23,7 @@ void documentFailure(ArrayList authList, String token) {
 Integer debug = 0
 
 URL url = new URL(params.url)
-URL csvFile = new URL("https://raw.githubusercontent.com/neelsmith/op/master/collections/vocab.csv")
+URL vocabFile = new URL("https://raw.githubusercontent.com/neelsmith/op/master/collections/vocab.csv")
 String txt = url.getText("UTF-8")
 
 html.html {
@@ -59,7 +59,7 @@ html.html {
 	    def xscript = []
 	    def formUrns  = []
 	    Integer idx = 0;
-	    csvFile.getText("UTF-8").eachLine { l ->
+	    vocabFile.getText("UTF-8").eachLine { l ->
 	      idx++;
 	      def cols = l.split(/,/)
 	      if (cols.size() > 1) {
@@ -80,8 +80,14 @@ html.html {
 	    }
 
 	    
-	    ul {
+	    //ul {
+	      String prevLine = ""
 	      tokenization.tokens.each { t ->
+		String ref = t.occurrence
+		if (prevLine != ref) {
+		  h3(ref)
+		  prevLine = ref
+		}
 		boolean valid = false
 		Integer matchIdx = 0
 		String token = t.token.replaceAll(/ /,'')
@@ -100,7 +106,7 @@ html.html {
 		    }
 		  }
 		}
-		li {
+		p {
 		    strong(token)
 		    mkp.yield(': ')
 		    if (valid) {
@@ -118,7 +124,7 @@ html.html {
 			  em("${lex.stem}")
 			  mkp.yield(", ${lex.pos}, ")
 			  em(lex.translation)
-			  
+			  code (" ${morph.toString(lex.pos)}")
 			}
 		      }
 		    } else {
@@ -129,7 +135,7 @@ html.html {
 		    }
 		  }
 	      }
-	    }
+	      //}
 	  }
         footer("@htmlfooter@")
 	}
