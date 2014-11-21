@@ -32,6 +32,7 @@ urn:cite:oldpersian:orth.form161,a-mi-i-ya,
 urn:cite:oldpersian:orth.form7,a-na-a,anā
 urn:cite:oldpersian:orth.form151,a-na-i-ya-a,
 urn:cite:oldpersian:orth.form213,a-pa-ra-i-ya-a-ya,
+urn:cite:oldpersian:orth.form222,a-na-i-ya-a-u-va-a,
 urn:cite:oldpersian:orth.form200,a-pa-ra-sa-ma,
 urn:cite:oldpersian:orth.form8,a-na-i-ya-na-a,aniyanā
 urn:cite:oldpersian:orth.form9,a-ra-ba-a-ya,Arabāya
@@ -43,6 +44,7 @@ urn:cite:oldpesian:orth.form127,a-ra-sha-a-ma-ha-ya-a,
 urn:cite:oldpesian:orth.form134,a-ra-i-ya-a-ra-ma-na,
 urn:cite:oldpesian:orth.form162,a-ra-i-ya-a-ra-ma-na-ha-ya-a,
 urn:cite:oldpersian:orth.form11,a-sa-ga-ra-ta,Asagarta
+urn:cite:oldpersian:orth.form218,a-sha-i-ya-va,
 urn:cite:oldpersian:orth.form194,a-ta-ra,
 urn:cite:oldpersian:orth.form12,a-ta-ra-sa,atarsa
 urn:cite:oldpersian:orth.form102,a-tha-ha,aϑaha
@@ -53,12 +55,14 @@ urn:cite:oldpersian:orth.form14,a-u-ra-ma-za-da-a-ha-a,Auramazdāhā
 urn:cite:oldpersian:orth.form97,a-u-ra-ma-za-da-a-ha,Auramazdāha
 urn:cite:oldpersian:orth.form145,a-u-ra-ma-za-da-a-ma,
 urn:cite:oldpersian:orth.form192,a-va,
+urn:cite:oldpersian:orth.form216,a-va-a-ja,
 urn:cite:oldpersian:orth.form192,a-va-ma,
 urn:cite:oldpersian:orth.form176,a-va-a-ja-na-i-ya-a,
 urn:cite:oldpersian:orth.form160,a-va-a-ja-na-ma,
 urn:cite:oldpersian:orth.form15,a-va-tha-a,avaϑā
 urn:cite:oldpersian:orth.form16,a-xa-sha-ta-a,axšatā
 urn:cite:oldpersian:orth.form17,a-tha-u-ra-a,Aϑurā
+urn:cite:oldpersian:orth.form214,a-va-ha-ya-a,
 urn:cite:oldpersian:orth.form136,a-va-ha-ya-ra-a-di-i-ya,
 urn:cite:oldpersian:orth.form18,ba-a-ba-i-ru-u-sha,Bābirauš
 urn:cite:oldpersian:orth.form96,ba-a-ba-i-ra-u-va,Bābirauv
@@ -70,6 +74,7 @@ urn:cite:oldpersian:orth.form104,ba-ga,baga
 urn:cite:oldpersian:orth.form106,ba-ga-a-na-a-ma,bagānam
 urn:cite:oldpersian:orth.form207,ba-ra-a-ta-a,
 urn:cite:oldpersian:orth.form208,ba-ra-di-i-ya,
+urn:cite:oldpersian:orth.form215,ba-ra-di-i-ya-ma,
 urn:cite:oldpersian:orth.form108,ba-u-mi-i-ma,bumim
 urn:cite:oldpersian:orth.form134,ca-i-sha-pa-i-sha,
 urn:cite:oldpersian:orth.form203,da-a-ra-ya-a-mi-i-ya,
@@ -77,6 +82,9 @@ urn:cite:oldpersian:orth.form212,da-a-ta-a,
 urn:cite:oldpersian:orth.form23,da-a-ra-ya-va-u-sha,Dārayavauš
 urn:cite:oldpersian:orth.form21,da-ha-ya-a-va,dahyāva
 urn:cite:oldpersian:orth.form22,da-ha-ya-u-na-a-ma,dahyūnām
+urn:cite:oldpersian:orth.form223,da-ha-ya-u-sha-u-va-a,
+urn:cite:oldpersian:orth.form220,da-ha-ya-u-va-a,
+urn:cite:oldpersian:orth.form219,da-ra-u-ga,
 urn:cite:oldpersian:orth.form24,da-ra-ya,draya
 urn:cite:oldpersian:orth.form25,da-ra-ya-ha-ya-a,drayahyā
 urn:cite:oldpersian:orth.form26,du-u-va-i-sha-ta-ma,duvaištam
@@ -121,6 +129,7 @@ urn:cite:oldpersian:orth.form42,ka-ta-pa-tu-u-ka,Katpatuka
 urn:cite:oldpersian:orth.form146,ku-u-ra-u-sha,
 urn:cite:oldpersian:orth.form43,ma-a,mā
 urn:cite:oldpersian:orth.form44,ma-a-da,Māda
+urn:cite:oldpersian:orth.form221,ma-a-da-i-ya,
 urn:cite:oldpersian:orth.form181,ma-a-ha-ya-a,
 urn:cite:oldpersian:orth.form177,ma-gu-u-ma,
 urn:cite:oldpersian:orth.form93,ma-gu-u-sha,maguš
@@ -133,6 +142,7 @@ urn:cite:oldpersian:orth.form111,ma-ra-ta-i-ya-ma,martiyam
 urn:cite:oldpersian:orth.form109,ma-tha-i-sha-ta,maϑišta
 urn:cite:oldpersian:orth.form48,mu-u-da-ra-a-ya-a,Mudrāyā
 urn:cite:oldpersian:orth.form184,mu-u-da-ra-a-ya,
+urn:cite:oldpersian:orth.form217,mu-u-da-ra-a-ya-ma,
 urn:cite:oldpersian:orth.form49,na-i-ra-sa-a-ta-i-ya,nirasātiy
 urn:cite:oldpersian:orth.form92,na-a-ma,nāma
 urn:cite:oldpersian:orth.form122,na-i-ya,naiy
@@ -183,6 +193,7 @@ urn:cite:oldpersian:orth.form183,tha-ka-ta-a,
 urn:cite:oldpersian:orth.form98,tha-ra-da,ϑarda
 urn:cite:oldpersian:orth.form82,tha-ta-gu-u-sha,Θataguš
 urn:cite:oldpersian:orth.form196,u-ba-ra-ta-ma,
+urn:cite:oldpersian:orth.form224,u-da-pa-ta-ta-a,
 urn:cite:oldpersian:orth.form199,u-fa-ra-sa-ta-ma,
 urn:cite:oldpersian:orth.form201,u-pa-sa-ta-a-ma,
 urn:cite:oldpersian:orth.form68,u-sha-ka-ha-ya-a,uškahyā
