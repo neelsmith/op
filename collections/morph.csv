@@ -18,7 +18,7 @@ urn:cite:oldpersian:morph.16,urn:cite:oldpersian:lex.10,urn:cite:oldpersian:orth
 urn:cite:oldpersian:morph.17,urn:cite:oldpersian:lex.11,urn:cite:oldpersian:orth.form69,indecl
 urn:cite:oldpersian:morph.18,urn:cite:oldpersian:lex.12,urn:cite:oldpersian:orth.form72,masc:obl:s
 urn:cite:oldpersian:morph.19,urn:cite:oldpersian:lex.13,urn:cite:oldpersian:orth.form64,"not yet"
-urn:cite:oldpersian:morph.20,urn:cite:oldpersian:lex.13,"compound tyai + sha","not yet"
+urn:cite:oldpersian:morph.20,urn:cite:oldpersian:lex.13,urn:cite:oldpersian:compounds.1,compound
 urn:cite:oldpersian:morph.21,urn:cite:oldpersian:lex.13,urn:cite:oldpersian:orth.form66,"not yet"
 urn:cite:oldpersian:morph.22,urn:cite:oldpersian:lex.13,urn:cite:oldpersian:orth.form67,"not yet"
 urn:cite:oldpersian:morph.23,urn:cite:oldpersian:lex.14,urn:cite:oldpersian:orth.form43,indecl
@@ -147,3 +147,4 @@ urn:cite:oldpersian:morph.143,urn:cite:oldpersian:lex.93,urn:cite:oldpersian:ort
 urn:cite:oldpersian:morph.144,urn:cite:oldpersian:lex.94,urn:cite:oldpersian:orth.form332,masc:gen:s
 urn:cite:oldpersian:morph.145,urn:cite:oldpersian:lex.95,urn:cite:oldpersian:orth.form333,masc:gen:s
 urn:cite:oldpersian:morph.146,urn:cite:oldpersian:lex.80,urn:cite:oldpersian:orth.form54,masc:acc:s
+urn:cite:oldpersian:morph.147,urn:cite:oldpersian:lex.53,urn:cite:oldpersian:orth.form99,neut:nom:pl
