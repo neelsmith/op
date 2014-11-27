@@ -33,8 +33,8 @@ urn:cite:oldpersian:morph.31,urn:cite:oldpersian:lex.21,urn:cite:oldpersian:orth
 urn:cite:oldpersian:morph.32,urn:cite:oldpersian:lex.21,urn:cite:oldpersian:orth.form24,neut:acc:s
 urn:cite:oldpersian:morph.33,urn:cite:oldpersian:lex.22,urn:cite:oldpersian:orth.form51,indecl
 urn:cite:oldpersian:morph.34,urn:cite:oldpersian:lex.23,urn:cite:oldpersian:orth.form28,indecl
-urn:cite:oldpersian:morph.35,urn:cite:oldpersian:lex.23,urn:cite:oldpersian:orth.form29,"=urn:cite:oldpersian:orth.form28+urn:cite:oldpersian:orth.form347"
-urn:cite:oldpersian:morph.36,urn:cite:oldpersian:lex.4,urn:cite:oldpersian:orth.form29,"=urn:cite:oldpersian:orth.form28+urn:cite:oldpersian:orth.form347"
+urn:cite:oldpersian:morph.35,urn:cite:oldpersian:lex.23,urn:cite:oldpersian:orth.form29,""
+urn:cite:oldpersian:morph.36,urn:cite:oldpersian:lex.4,urn:cite:oldpersian:orth.form29,urn:cite:oldpersian:compounds.1
 urn:cite:oldpersian:morph.37,urn:cite:oldpersian:lex.24,urn:cite:oldpersian:orth.form15,indecl
 urn:cite:oldpersian:morph.38,urn:cite:oldpersian:lex.2,urn:cite:oldpersian:orth.form63,
 urn:cite:oldpersian:morph.39,urn:cite:oldpersian:lex.25,urn:cite:oldpersian:orth.form79,indecl
